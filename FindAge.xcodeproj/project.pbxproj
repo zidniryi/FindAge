@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BB609109216AFF3800D2F9DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB609108216AFF3800D2F9DC /* AppDelegate.swift */; };
+		BB60910B216AFF3800D2F9DC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB60910A216AFF3800D2F9DC /* ViewController.swift */; };
+		BB60910E216AFF3800D2F9DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB60910C216AFF3800D2F9DC /* Main.storyboard */; };
+		BB609111216AFF3800D2F9DC /* FindAge.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BB60910F216AFF3800D2F9DC /* FindAge.xcdatamodeld */; };
+		BB609113216AFF3800D2F9DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB609112216AFF3800D2F9DC /* Assets.xcassets */; };
+		BB609116216AFF3800D2F9DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB609114216AFF3800D2F9DC /* LaunchScreen.storyboard */; };
+		BB609121216AFF3800D2F9DC /* FindAgeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB609120216AFF3800D2F9DC /* FindAgeTests.swift */; };
+		BB60912C216AFF3900D2F9DC /* FindAgeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB60912B216AFF3900D2F9DC /* FindAgeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BB60911D216AFF3800D2F9DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB6090FD216AFF3700D2F9DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB609104216AFF3800D2F9DC;
+			remoteInfo = FindAge;
+		};
+		BB609128216AFF3900D2F9DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB6090FD216AFF3700D2F9DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB609104216AFF3800D2F9DC;
+			remoteInfo = FindAge;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BB609105216AFF3800D2F9DC /* FindAge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FindAge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB609108216AFF3800D2F9DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BB60910A216AFF3800D2F9DC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BB60910D216AFF3800D2F9DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BB609110216AFF3800D2F9DC /* FindAge.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FindAge.xcdatamodel; sourceTree = "<group>"; };
+		BB609112216AFF3800D2F9DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BB609115216AFF3800D2F9DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BB609117216AFF3800D2F9DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB60911C216AFF3800D2F9DC /* FindAgeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FindAgeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB609120216AFF3800D2F9DC /* FindAgeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindAgeTests.swift; sourceTree = "<group>"; };
+		BB609122216AFF3800D2F9DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB609127216AFF3900D2F9DC /* FindAgeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FindAgeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB60912B216AFF3900D2F9DC /* FindAgeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindAgeUITests.swift; sourceTree = "<group>"; };
+		BB60912D216AFF3900D2F9DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BB609102216AFF3800D2F9DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB609119216AFF3800D2F9DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB609124216AFF3900D2F9DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BB6090FC216AFF3700D2F9DC = {
+			isa = PBXGroup;
+			children = (
+				BB609107216AFF3800D2F9DC /* FindAge */,
+				BB60911F216AFF3800D2F9DC /* FindAgeTests */,
+				BB60912A216AFF3900D2F9DC /* FindAgeUITests */,
+				BB609106216AFF3800D2F9DC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BB609106216AFF3800D2F9DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB609105216AFF3800D2F9DC /* FindAge.app */,
+				BB60911C216AFF3800D2F9DC /* FindAgeTests.xctest */,
+				BB609127216AFF3900D2F9DC /* FindAgeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BB609107216AFF3800D2F9DC /* FindAge */ = {
+			isa = PBXGroup;
+			children = (
+				BB609108216AFF3800D2F9DC /* AppDelegate.swift */,
+				BB60910A216AFF3800D2F9DC /* ViewController.swift */,
+				BB60910C216AFF3800D2F9DC /* Main.storyboard */,
+				BB609112216AFF3800D2F9DC /* Assets.xcassets */,
+				BB609114216AFF3800D2F9DC /* LaunchScreen.storyboard */,
+				BB609117216AFF3800D2F9DC /* Info.plist */,
+				BB60910F216AFF3800D2F9DC /* FindAge.xcdatamodeld */,
+			);
+			path = FindAge;
+			sourceTree = "<group>";
+		};
+		BB60911F216AFF3800D2F9DC /* FindAgeTests */ = {
+			isa = PBXGroup;
+			children = (
+				BB609120216AFF3800D2F9DC /* FindAgeTests.swift */,
+				BB609122216AFF3800D2F9DC /* Info.plist */,
+			);
+			path = FindAgeTests;
+			sourceTree = "<group>";
+		};
+		BB60912A216AFF3900D2F9DC /* FindAgeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BB60912B216AFF3900D2F9DC /* FindAgeUITests.swift */,
+				BB60912D216AFF3900D2F9DC /* Info.plist */,
+			);
+			path = FindAgeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BB609104216AFF3800D2F9DC /* FindAge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB609130216AFF3900D2F9DC /* Build configuration list for PBXNativeTarget "FindAge" */;
+			buildPhases = (
+				BB609101216AFF3800D2F9DC /* Sources */,
+				BB609102216AFF3800D2F9DC /* Frameworks */,
+				BB609103216AFF3800D2F9DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FindAge;
+			productName = FindAge;
+			productReference = BB609105216AFF3800D2F9DC /* FindAge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BB60911B216AFF3800D2F9DC /* FindAgeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB609133216AFF3900D2F9DC /* Build configuration list for PBXNativeTarget "FindAgeTests" */;
+			buildPhases = (
+				BB609118216AFF3800D2F9DC /* Sources */,
+				BB609119216AFF3800D2F9DC /* Frameworks */,
+				BB60911A216AFF3800D2F9DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB60911E216AFF3800D2F9DC /* PBXTargetDependency */,
+			);
+			name = FindAgeTests;
+			productName = FindAgeTests;
+			productReference = BB60911C216AFF3800D2F9DC /* FindAgeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BB609126216AFF3900D2F9DC /* FindAgeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB609136216AFF3900D2F9DC /* Build configuration list for PBXNativeTarget "FindAgeUITests" */;
+			buildPhases = (
+				BB609123216AFF3900D2F9DC /* Sources */,
+				BB609124216AFF3900D2F9DC /* Frameworks */,
+				BB609125216AFF3900D2F9DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB609129216AFF3900D2F9DC /* PBXTargetDependency */,
+			);
+			name = FindAgeUITests;
+			productName = FindAgeUITests;
+			productReference = BB609127216AFF3900D2F9DC /* FindAgeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BB6090FD216AFF3700D2F9DC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = ZidniRyi;
+				TargetAttributes = {
+					BB609104216AFF3800D2F9DC = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					BB60911B216AFF3800D2F9DC = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BB609104216AFF3800D2F9DC;
+					};
+					BB609126216AFF3900D2F9DC = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BB609104216AFF3800D2F9DC;
+					};
+				};
+			};
+			buildConfigurationList = BB609100216AFF3700D2F9DC /* Build configuration list for PBXProject "FindAge" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BB6090FC216AFF3700D2F9DC;
+			productRefGroup = BB609106216AFF3800D2F9DC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BB609104216AFF3800D2F9DC /* FindAge */,
+				BB60911B216AFF3800D2F9DC /* FindAgeTests */,
+				BB609126216AFF3900D2F9DC /* FindAgeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BB609103216AFF3800D2F9DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB609116216AFF3800D2F9DC /* LaunchScreen.storyboard in Resources */,
+				BB609113216AFF3800D2F9DC /* Assets.xcassets in Resources */,
+				BB60910E216AFF3800D2F9DC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB60911A216AFF3800D2F9DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB609125216AFF3900D2F9DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BB609101216AFF3800D2F9DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB60910B216AFF3800D2F9DC /* ViewController.swift in Sources */,
+				BB609111216AFF3800D2F9DC /* FindAge.xcdatamodeld in Sources */,
+				BB609109216AFF3800D2F9DC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB609118216AFF3800D2F9DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB609121216AFF3800D2F9DC /* FindAgeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB609123216AFF3900D2F9DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB60912C216AFF3900D2F9DC /* FindAgeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BB60911E216AFF3800D2F9DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB609104216AFF3800D2F9DC /* FindAge */;
+			targetProxy = BB60911D216AFF3800D2F9DC /* PBXContainerItemProxy */;
+		};
+		BB609129216AFF3900D2F9DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB609104216AFF3800D2F9DC /* FindAge */;
+			targetProxy = BB609128216AFF3900D2F9DC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BB60910C216AFF3800D2F9DC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB60910D216AFF3800D2F9DC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BB609114216AFF3800D2F9DC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB609115216AFF3800D2F9DC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BB60912E216AFF3900D2F9DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BB60912F216AFF3900D2F9DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BB609131216AFF3900D2F9DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 879P4K449F;
+				INFOPLIST_FILE = FindAge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = id.zidniryi.FindAge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BB609132216AFF3900D2F9DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 879P4K449F;
+				INFOPLIST_FILE = FindAge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = id.zidniryi.FindAge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BB609134216AFF3900D2F9DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 879P4K449F;
+				INFOPLIST_FILE = FindAgeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = id.zidniryi.FindAgeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FindAge.app/FindAge";
+			};
+			name = Debug;
+		};
+		BB609135216AFF3900D2F9DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 879P4K449F;
+				INFOPLIST_FILE = FindAgeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = id.zidniryi.FindAgeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FindAge.app/FindAge";
+			};
+			name = Release;
+		};
+		BB609137216AFF3900D2F9DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 879P4K449F;
+				INFOPLIST_FILE = FindAgeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = id.zidniryi.FindAgeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FindAge;
+			};
+			name = Debug;
+		};
+		BB609138216AFF3900D2F9DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 879P4K449F;
+				INFOPLIST_FILE = FindAgeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = id.zidniryi.FindAgeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FindAge;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BB609100216AFF3700D2F9DC /* Build configuration list for PBXProject "FindAge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB60912E216AFF3900D2F9DC /* Debug */,
+				BB60912F216AFF3900D2F9DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB609130216AFF3900D2F9DC /* Build configuration list for PBXNativeTarget "FindAge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB609131216AFF3900D2F9DC /* Debug */,
+				BB609132216AFF3900D2F9DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB609133216AFF3900D2F9DC /* Build configuration list for PBXNativeTarget "FindAgeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB609134216AFF3900D2F9DC /* Debug */,
+				BB609135216AFF3900D2F9DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB609136216AFF3900D2F9DC /* Build configuration list for PBXNativeTarget "FindAgeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB609137216AFF3900D2F9DC /* Debug */,
+				BB609138216AFF3900D2F9DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BB60910F216AFF3800D2F9DC /* FindAge.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BB609110216AFF3800D2F9DC /* FindAge.xcdatamodel */,
+			);
+			currentVersion = BB609110216AFF3800D2F9DC /* FindAge.xcdatamodel */;
+			path = FindAge.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BB6090FD216AFF3700D2F9DC /* Project object */;
+}
